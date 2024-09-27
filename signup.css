@@ -1,0 +1,85 @@
+body {
+    background-image: url('bgimage2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signupContainer {
+
+    height: 540px;
+    width: 400px;
+    background-color: rgba(119, 116, 116, 0.729);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(213, 209, 209);
+    box-shadow: -5px 5px 20px 10px rgba(119, 116, 116, 0.729);
+
+
+}
+
+input {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 50%;
+    margin-bottom: 30px;
+    background-color: rgb(188, 187, 186);
+
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(188, 187, 186);
+    margin: 0px auto;
+    display: block;
+
+}
+
+button:hover{
+    background-color: antiquewhite;
+ }
+
+
+@media  screen and (max-width: 1000px) {
+    .signupContainer{
+        width: 70vw;
+        height: 80vh;
+    }
+
+    button{
+        width: 100px;
+    }
+
+    body{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    button:active{
+        background-color: antiquewhite;
+     }
+
+}
